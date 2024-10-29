@@ -9,7 +9,7 @@ def get_data(link):
   payload={}
   headers = {
     'Accept': 'text/plain',
-    'X-CoinAPI-Key': 'D1CF6B78-2D23-4565-B8B7-99E8202E4BC1'
+    'X-CoinAPI-Key': 'XXXXXXXX'
   }
 
   response = requests.request("GET", url, headers=headers, data=payload)
